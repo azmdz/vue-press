@@ -1,0 +1,25 @@
+{
+  "name": "vue-press",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npm run dev",
+    "dev":"vuepress dev",
+    "build":"vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azmdz/vue-press.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azmdz/vue-press/issues"
+  },
+  "homepage": "https://github.com/azmdz/vue-press#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  }
+}
