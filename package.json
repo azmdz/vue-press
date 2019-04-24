@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "srcDir": "src",
+    "buildDir": "build"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"npm run dev",
-    "dev":"vuepress dev",
-    "build":"vuepress build"
+    "dev":"vuepress dev $npm_package_config_srcDir",
+    "build":"vuepress build $npm_package_config_srcDir"
   },
   "repository": {
     "type": "git",
